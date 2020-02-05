@@ -1,5 +1,7 @@
-package fieldDecorator;
+package fieldDecorator.impl;
 
+import fieldDecorator.Element;
+import fieldDecorator.ElementFactory;
 import org.openqa.selenium.WebElement;
 
 import java.lang.reflect.InvocationTargetException;

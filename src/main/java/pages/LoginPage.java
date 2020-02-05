@@ -1,6 +1,7 @@
 package pages;
 
 import config.Config;
+import fieldDecorator.elements.Button;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -28,9 +29,9 @@ public class LoginPage extends BasePage {
     }
 
     @FindBy(xpath = "//button[@id=\"SubmitLogin\"]")
-    private WebElement submitButton;
+    private Button submitButton;
 
-    public WebElement getSubmitButton() {
+    public Button getSubmitButton() {
         return submitButton;
     }
 
